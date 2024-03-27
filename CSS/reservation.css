@@ -1,0 +1,72 @@
+.Rest{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.content::before{
+    content: "";
+    position: absolute;
+    height: 150vh;
+    width: 100%;
+    background-image: url("https://hotelfurnitureconcept.com/wp-content/uploads/2021/03/restaurant-table-made-in-turkey-0-1.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.Rest .content .form-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: black;
+}
+.content form{
+    width: 50%;
+    margin: 1rem;
+}
+.content .form-containers div{
+    display: flex;
+    flex-direction: column;
+}
+.content form label{
+    margin: 2rem 0 .7rem 0;
+    color: coral;
+    
+}
+.content form input ,textarea{
+    padding: .5rem;
+    font-size: 1.5rem;
+    color:brown;
+    background-color: orange;
+    box-shadow: 0 8px 32px 0 green;
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.cs{
+height: 35px;
+width: 40%;
+padding: .5rem;
+font-size: 1.5rem;
+background-color: orange;
+margin-top: 35px;
+text-align: center;
+border: 1px solid black;
+border-radius: 4px;
+margin-left: 150px;
+box-shadow: 0 8px 32px 0 green;
+backdrop-filter: blur(4px);
+}
+.cs:hover{
+background-color: yellow;
+ color: green;
+}
+.content form h1{
+    text-align: center;
+    color:darkblue;
+    font-style: italic;
+    
+}

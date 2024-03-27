@@ -1,0 +1,37 @@
+.vasu1{
+    display: inline-block;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+   margin: 15px 60px 0px 15px ;
+}
+
+.card {
+    display: inline-block;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 15px 60px 0px 15px ;
+}
+.cardimg{
+    width: 70%;
+    border-radius:  1rem 1rem 0 ;
+    
+   
+}
+.title{
+    margin: 2px;
+    text-align: center;
+    font-style: italic;
+}
+.price p{
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.self{
+    margin-left: 2px;
+}

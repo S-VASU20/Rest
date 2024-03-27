@@ -1,0 +1,30 @@
+header{
+    background-color: orange;
+}
+.vasu{
+    display: flex;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+.container-flex{
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.img{
+    width: 65px;
+    padding: .5em 1rem;
+}
+.list{
+    margin-left: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}

@@ -1,0 +1,34 @@
+.About {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .4);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2stcGYtcG9tLTEyNDIuanBn.jpg");
+    
+}
+
+
+
+.About  .tester{
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    left: 0;
+    padding: 1rem;
+}
+
+.About  h2 {
+    color: gold;
+    font-size: 3rem;
+
+}
+
+.About  p {
+    color: red;
+    margin: 1rem 0;
+    font-size:1.5rem;
+}
+
+
